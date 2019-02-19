@@ -9,5 +9,6 @@ script:
   
  
   - dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
+  - ls
   - .\tools\csmacnz.Coveralls --opencover  -i ./DomainTest/coverage.opencover.xml --repoToken VtFhXG6CR290tUf1po3UAcg5qE4xzBqhk
   
