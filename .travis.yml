@@ -7,8 +7,9 @@ before_script:
   - dotnet tool install coveralls.net --version 1.0.0 --tool-path tools
 script:
   
- 
+  - REPO_COMMIT_AUTHOR=$(git show -s --pretty=format:"%cn")  
+  - REPO_COMMIT_MESSAGE=$(git show -s --pretty=format:"%s") 
   - dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
   - ls
-  - ./tools/csmacnz.Coveralls --opencover  -i ./DomainTest/coverage.opencover.xml --repoToken 80pXfaFz711qAjR4uhl3UxdoYZeKj9rX1 --commitId $TRAVIS_COMMIT --commitBranch $TRAVIS_BRANCH --commitAuthor "$REPO_COMMIT_AUTHOR" --useRelativePaths
+  - ./tools/csmacnz.Coveralls --opencover  -i ./DomainTest/coverage.opencover.xml --repoToken 80pXfaFz711qAjR4uhl3UxdoYZeKj9rX1 --commitId $TRAVIS_COMMIT --commitBranch $TRAVIS_BRANCH --commitAuthor "$REPO_COMMIT_AUTHOR" --commitMessage "$REPO_COMMIT_MESSAGE" --jobId $TRAVIS_JOB_ID  --serviceName "travis-ci" --useRelativePaths
   
