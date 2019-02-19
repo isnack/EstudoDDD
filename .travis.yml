@@ -10,5 +10,5 @@ script:
  
   - dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
   - ls
-  - ./tools/csmacnz.Coveralls --opencover  -i ./DomainTest/coverage.opencover.xml --repoToken 80pXfaFz711qAjR4uhl3UxdoYZeKj9rX1 --useRelativePaths
+  - ./tools/csmacnz.Coveralls --opencover  -i ./DomainTest/coverage.opencover.xml --repoToken 80pXfaFz711qAjR4uhl3UxdoYZeKj9rX1 --commitId $TRAVIS_COMMIT --commitBranch $TRAVIS_BRANCH --commitAuthor "$REPO_COMMIT_AUTHOR" --useRelativePaths
   
