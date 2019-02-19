@@ -4,4 +4,7 @@ dotnet: 2.1.502
 solution: ProjetoDeEstudos.sln
 script:
   - dotnet restore
+  - dotnet tool install -g coveralls.net --version 1.0.0
   - dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
+  - csmacnz.Coveralls --opencover
+  
