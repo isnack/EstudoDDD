@@ -8,4 +8,4 @@ build:
   
 test_script:
  - cmd: dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
- - cmd: .\tools\csmacnz.Coveralls --opencover
+ - cmd: .\tools\csmacnz.Coveralls --version
