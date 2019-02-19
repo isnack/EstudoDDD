@@ -10,5 +10,5 @@ script:
  
   - dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
   - ls
-  - ./tools/csmacnz.Coveralls --opencover  -i ./DomainTest/coverage.opencover.xml --repoToken 80pXfaFz711qAjR4uhl3UxdoYZeKj9rX1
+  - ./tools/csmacnz.Coveralls --opencover  -i ./DomainTest/coverage.opencover.xml --repoToken 80pXfaFz711qAjR4uhl3UxdoYZeKj9rX1 --useRelativePaths
   
