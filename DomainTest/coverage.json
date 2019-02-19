@@ -1,0 +1,298 @@
+{
+  "Domain.dll": {
+    "C:\\Users\\Ygm\\source\\repos\\ProjetoDeEstudos\\Domain\\FaleMais120.cs": {
+      "Domain.FaleMais120": {
+        "System.Void Domain.FaleMais120::.ctor()": {
+          "Lines": {
+            "9": 1,
+            "10": 1,
+            "11": 1,
+            "12": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Ygm\\source\\repos\\ProjetoDeEstudos\\Domain\\FaleMais30.cs": {
+      "Domain.FaleMais30": {
+        "System.Void Domain.FaleMais30::.ctor()": {
+          "Lines": {
+            "7": 4,
+            "8": 4,
+            "9": 4,
+            "10": 4
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Ygm\\source\\repos\\ProjetoDeEstudos\\Domain\\FaleMais60.cs": {
+      "Domain.FaleMais60": {
+        "System.Void Domain.FaleMais60::.ctor()": {
+          "Lines": {
+            "9": 2,
+            "10": 2,
+            "11": 2,
+            "12": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Ygm\\source\\repos\\ProjetoDeEstudos\\Domain\\Ligacao.cs": {
+      "Domain.Ligacao": {
+        "System.Int32 Domain.Ligacao::get_origem()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Domain.Ligacao::get_destino()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Domain.Ligacao::get_tempo()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.String Domain.Ligacao::get_planoNome()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.Double Domain.Ligacao::get_valorComPlano()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Double Domain.Ligacao::get_valorSemPlano()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Void Domain.Ligacao::.ctor(System.Int32,System.Int32,System.Int32,System.String,System.Double,System.Double)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Ygm\\source\\repos\\ProjetoDeEstudos\\Domain\\Plano.cs": {
+      "Domain.Plano": {
+        "System.Int32 Domain.Plano::calcularDescontoMinutosPlano(System.Int32)": {
+          "Lines": {
+            "12": 7,
+            "13": 11,
+            "14": 3,
+            "15": 3,
+            "16": 7
+          },
+          "Branches": [
+            {
+              "Line": 13,
+              "Offset": 10,
+              "EndOffset": 12,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 4
+            },
+            {
+              "Line": 13,
+              "Offset": 10,
+              "EndOffset": 16,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            }
+          ]
+        },
+        "System.Boolean Domain.Plano::EstaDentroDoPlano(System.Int32)": {
+          "Lines": {
+            "19": 8,
+            "20": 8,
+            "21": 8,
+            "22": 8
+          },
+          "Branches": [
+            {
+              "Line": 21,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 4
+            },
+            {
+              "Line": 21,
+              "Offset": 12,
+              "EndOffset": 17,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 4
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\Ygm\\source\\repos\\ProjetoDeEstudos\\Domain\\Tarifa.cs": {
+      "Domain.Tarifa": {
+        "System.String Domain.Tarifa::get_origem()": {
+          "Lines": {
+            "9": 6
+          },
+          "Branches": []
+        },
+        "System.String Domain.Tarifa::get_destino()": {
+          "Lines": {
+            "10": 6
+          },
+          "Branches": []
+        },
+        "System.Double Domain.Tarifa::get_valor()": {
+          "Lines": {
+            "11": 18
+          },
+          "Branches": []
+        },
+        "System.Double Domain.Tarifa::ValorMinutoComMulta()": {
+          "Lines": {
+            "21": 3,
+            "22": 4,
+            "23": 2,
+            "24": 2,
+            "25": 3
+          },
+          "Branches": [
+            {
+              "Line": 22,
+              "Offset": 23,
+              "EndOffset": 25,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 22,
+              "Offset": 23,
+              "EndOffset": 37,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            }
+          ]
+        },
+        "System.Double Domain.Tarifa::valorTotal(System.Int32)": {
+          "Lines": {
+            "27": 3,
+            "28": 5,
+            "29": 1,
+            "30": 3
+          },
+          "Branches": [
+            {
+              "Line": 28,
+              "Offset": 16,
+              "EndOffset": 18,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 28,
+              "Offset": 16,
+              "EndOffset": 27,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 28,
+              "Offset": 30,
+              "EndOffset": 32,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 2
+            },
+            {
+              "Line": 28,
+              "Offset": 30,
+              "EndOffset": 44,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Double Domain.Tarifa::valorTotalComMulta(System.Int32)": {
+          "Lines": {
+            "33": 1,
+            "34": 1,
+            "36": 1,
+            "37": 1
+          },
+          "Branches": [
+            {
+              "Line": 34,
+              "Offset": 16,
+              "EndOffset": 18,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 34,
+              "Offset": 16,
+              "EndOffset": 27,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 30,
+              "EndOffset": 32,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 30,
+              "EndOffset": 44,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Void Domain.Tarifa::.ctor(System.String,System.String,System.Double)": {
+          "Lines": {
+            "13": 6,
+            "14": 6,
+            "15": 6,
+            "16": 6,
+            "17": 6,
+            "18": 6
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
