@@ -8,4 +8,5 @@ build:
   
 test_script:
  - cmd: dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
+ - cmd: ls
  - cmd: .\tools\csmacnz.Coveralls --opencover  -i ./coverage.opencover.xml --repoToken VtFhXG6CR290tUf1po3UAcg5qE4xzBqhk
