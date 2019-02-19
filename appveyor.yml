@@ -1,0 +1,3 @@
+build:
+  project: ProjetoDeEstudos.sln
+  verbosity: minimal
