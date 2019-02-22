@@ -7,6 +7,6 @@ namespace Domain
     public interface IPlano
     {
          bool EstaDentroDoPlano(int minutos);
-         int calcularDescontoMinutosPlano(int minutos);
+         int calculateDiscountPlanMinutes(int minutos);
     }
 }

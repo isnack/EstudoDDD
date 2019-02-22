@@ -13,7 +13,7 @@ namespace DomainTest
             int minutos = 20;
             int esperado = 0;
 
-            int atual = plano.calcularDescontoMinutosPlano(minutos);
+            int atual = plano.calculateDiscountPlanMinutes(minutos);
 
             Assert.AreEqual(esperado, atual, 0.1);
         }
@@ -24,7 +24,7 @@ namespace DomainTest
             int minutos = 40;
             int esperado = 10;
 
-            int atual = plano.calcularDescontoMinutosPlano(minutos);
+            int atual = plano.calculateDiscountPlanMinutes(minutos);
 
             Assert.AreEqual(esperado, atual, 0.1);
         }
@@ -35,7 +35,7 @@ namespace DomainTest
             int minutos = 0;
             int esperado = 0;
 
-            int atual = plano.calcularDescontoMinutosPlano(minutos);
+            int atual = plano.calculateDiscountPlanMinutes(minutos);
 
             Assert.AreEqual(esperado, atual, 0.1);
         }
@@ -46,7 +46,7 @@ namespace DomainTest
             int minutos = -10;
             int esperado = 0;
 
-            int atual = plano.calcularDescontoMinutosPlano(minutos);
+            int atual = plano.calculateDiscountPlanMinutes(minutos);
 
             Assert.AreEqual(esperado, atual, 0.1);
         }
@@ -57,7 +57,7 @@ namespace DomainTest
             int minutos = 30;
             int esperado = 0;
 
-            int atual = plano.calcularDescontoMinutosPlano(minutos);
+            int atual = plano.calculateDiscountPlanMinutes(minutos);
 
             Assert.AreEqual(esperado, atual, 0.1);
         }
@@ -69,7 +69,7 @@ namespace DomainTest
             int minutos = 130;
             int esperado = 10;
 
-            int atual = plano.calcularDescontoMinutosPlano(minutos);
+            int atual = plano.calculateDiscountPlanMinutes(minutos);
 
             Assert.AreEqual(esperado, atual, 0.1);
         }
